@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+    <record id="openai_chat_wizard_view_form" model="ir.ui.view">
+        <field name="name">openai.chat.wizard.form</field>
+        <field name="model">openai.chat.wizard</field>
+        <field name="type">form</field>
+        <field name="arch" type="xml">
+            <form>
+                <field name="message" />
+                <button name="button_send" type="object" string="Send" />
+            </form>
+        </field>
+    </record>
+
+</odoo>
